@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+    <title>
+     Mi primer código
+    </title>
+    <style>
+        body {
+            background-image: url(download.jpg);
+        }
+     h1 {color: white;}
+     p {font-size: 25px; color: whitesmoke;}
+    </style>
+   
+</head>
+<body>
+    <h1>
+     Calculá tu peso por la galaxia;
+    </h1>
+    <p>
+     Conocé cual es tu peso :D;
+    </p>
+    <script>
+        alert("Esto esta funcionando con JS");
+        var usuario = prompt("ingresá tu peso");
+        var lugar = prompt("Elije un lugar: 1=Luna, 2=Jupiter")
+        var gtierra = 9.8;
+        var gluna = 1.6;
+        var gjupiter = 24.8;
+        var peso = parseInt(usuario);
+        if (lugar == 1) {
+            var pesoluna = peso * gluna / gtierra;
+            var pesofinal = parseInt(pesoluna);
+            var LugarEscrito = "Luna";
+        } else if (lugar == 2) {
+            var pesojupiter = peso * gjupiter / gtierra;
+            var pesofinal = parseInt(pesojupiter);
+            var LugarEscrito = "Jupiter";
+        } else {
+            var pesofinal = "lo que tu quieras bb";
+            var LugarEscrito = "tu imaginación";
+        }
+        document.write("tu peso en " + LugarEscrito + " es de " + pesofinal);
+
+    </script>
+</body>
+</html>
