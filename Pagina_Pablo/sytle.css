@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: black;
+    /*background-image: url("Imagenes/imagen2.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;    
+}
+.barra {
+    margin-top: 1.6rem;
+    list-style: none;
+}
+.home {
+    background-image: url("Imagenes/home1.png");
+}
