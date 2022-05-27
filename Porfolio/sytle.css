@@ -5,15 +5,10 @@
 }
 body {
     padding-top: 10rem;
-    display: block;   
-    width: 100%;
-    height: auto;
-    background-color: white;
-    background-image: url("Imagenes/alecox68.png");
-    background-size: 100rem;
+    background-image: url("Imagenes/alecox68.png"), radial-gradient(circle at 50% 50%, #fff 50%, #000 100%);
     background-repeat: no-repeat;
     background-position: center center;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .Portada {
     font-size: 10rem;
@@ -21,10 +16,10 @@ body {
     margin: 1rem 1rem;
 }
 .info-basic {
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: #c316c3;
     background-color: #4a094a27;
-    padding: 1rem 1rem;
+    padding: 0.85rem 0.85rem;
 }
 .barra {
     width: 100%;
